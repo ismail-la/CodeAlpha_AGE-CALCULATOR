@@ -1,0 +1,94 @@
+/* Base styles */
+.container {
+  background: linear-gradient(140deg, #c899d4, #67b6b6);
+  padding: 80px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(173, 32, 32, 0.1);
+  box-sizing: border-box;
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #9771c9;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 60px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="date"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 20px;
+  width: 100%; /* Increase width */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #775cc0;
+  color: rgb(228, 229, 238);
+  border: none;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #be92d8;
+}
+
+.age-result {
+  font-size: 1.4em;
+  color: #170427;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.age-result .age-number {
+  color: #b6426e; /* Change this color as needed */
+  font-size: 1.4em;
+}
+
+/* Media queries for responsiveness */
+@media (min-width: 768px) {
+  .container {
+    padding: 70px;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  button {
+    padding: 12px 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 100px;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  button {
+    padding: 14px 28px;
+  }
+}
