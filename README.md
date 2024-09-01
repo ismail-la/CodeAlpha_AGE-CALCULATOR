@@ -1,4 +1,6 @@
-# Age Calculator React App
+# Age Calculator App
+
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 Welcome to the Age Calculator React App! This project is a simple web application designed to calculate and display a user's age based on their date of birth. Originally created using HTML, CSS, and JavaScript, this project has been refactored and converted to use React.
 
@@ -90,4 +92,5 @@ Please make sure to follow the coding conventions and write clear commit message
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
